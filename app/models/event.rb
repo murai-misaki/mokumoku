@@ -18,6 +18,7 @@ class Event < ApplicationRecord
     validates :title
     validates :content
     validates :held_at
+    validates :only_woman
   end
 
   def past?
